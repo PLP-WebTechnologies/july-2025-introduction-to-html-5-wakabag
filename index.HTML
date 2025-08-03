@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Web Page - Accessibility & SEO Basics</title>
+    <meta name="description" content="A simple, semantic HTML5 webpage demonstrating accessibility best practices and SEO fundamentals." />
+</head>
+<body>
+    <!-- Site Header -->
+    <header>
+        <h1>My Sample Website</h1>
+        <p>Building accessible and SEO-friendly HTML5 pages</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about" title="Learn more about us">About</a></li>
+            <li><a href="#services" title="View our services">Services</a></li>
+            <li><a href="#contact" title="Contact us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Our Company</h2>
+            <p>
+                We are committed to providing high-quality web solutions that prioritize accessibility and SEO best practices. Our goal is to help your website reach a wider audience and ensure an inclusive experience for all users.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" aria-labelledby="services-title">
+            <h2 id="services-title">Our Services</h2>
+            <article>
+                <h3>Web Design</h3>
+                <p>Creating visually appealing and accessible website layouts tailored to your needs.</p>
+            </article>
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>Enhancing your website's visibility on search engines through best practices and strategic content.</p>
+            </article>
+            <article>
+                <h3>Accessibility Consulting</h3>
+                <p>Helping your website meet accessibility standards for users with disabilities.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Us</h2>
+            <p>If you have questions or want to get in touch, please email us at <a href="mailto:info@example.com" aria-label="Email us at info@example.com">info@example.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer>
+        <p>&copy; 2025 My Sample Website. All rights reserved.</p>
+        <p>
+            <a href="#top" aria-hidden="true">Back to top</a>
+        </p>
+    </footer>
+</body>
+</html>
